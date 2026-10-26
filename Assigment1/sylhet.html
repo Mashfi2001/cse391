@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Sylhet Tour Budget - Mashfi Mahin Sarder</title>
+  </head>
+
+  <body>
+    <header class="prominent-header">
+      <h1 class="logo">Mashfi Mahin Sarder</h1>
+      <nav>
+        <a href="./index.html">Home</a>
+        <a href="./index.html#about">About Me</a>
+        <button class="theme-btn" onclick="document.body.classList.toggle('dark')">&#9788; / &#9790;</button>
+      </nav>
+    </header>
+    <h2 id="tour">My Sylhet Tour</h2>
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Item</th>
+            <th>Cost (৳)</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="6"><strong>Shared Costs</strong></td>
+            <td>Hotel (Travel Inn)</td>
+            <td>4,500</td>
+            <td rowspan="6">
+              <img
+                class="table-photo"
+                src="https://upload.wikimedia.org/wikipedia/commons/2/22/Jainta_Hill_Resort,_Tamabil_(01).jpg"
+                alt="Jainta Hill Resort, Tamabil"
+              />
+              <p>
+                As this was peak vacation season. we couldn't find a hotel that
+                was gonna book a room for 2 nights that's why we have to book
+                two seperate rooms at two separate hotels. hotel travelers inn
+                sylhet city and jainta hill resort.
+              </p>
+              <p class="photo-credit">
+                Photo:
+                <a
+                  href="https://commons.wikimedia.org/wiki/File:Jainta_Hill_Resort,_Tamabil_(01).jpg"
+                  >Wikimedia Commons</a
+                >
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>Jainta</td>
+            <td>5,000</td>
+          </tr>
+          <tr>
+            <td>Bus</td>
+            <td>8,134</td>
+          </tr>
+          <tr>
+            <td>Odomos</td>
+            <td>320</td>
+          </tr>
+          <tr>
+            <td>Water</td>
+            <td>310</td>
+          </tr>
+          <tr>
+            <td>Others</td>
+            <td>1,085</td>
+          </tr>
+
+          <tr>
+            <td rowspan="4"><strong>Day 1</strong></td>
+            <td>Breakfast</td>
+            <td>300</td>
+            <td rowspan="4">[Where you went and what you did on Day 1.]</td>
+          </tr>
+          <tr>
+            <td>Lunch</td>
+            <td>1,500</td>
+          </tr>
+          <tr>
+            <td>Dinner</td>
+            <td>2,250</td>
+          </tr>
+          <tr>
+            <td>Local travel</td>
+            <td>2,750</td>
+          </tr>
+
+          <tr>
+            <td rowspan="4"><strong>Day 2</strong></td>
+            <td>Breakfast</td>
+            <td>1,000</td>
+            <td rowspan="4">[Day 2 places and highlights.]</td>
+          </tr>
+          <tr>
+            <td>Lunch</td>
+            <td>1,120</td>
+          </tr>
+          <tr>
+            <td>Dinner</td>
+            <td>930</td>
+          </tr>
+          <tr>
+            <td>Local travel</td>
+            <td>3,450</td>
+          </tr>
+
+          <tr>
+            <td rowspan="4"><strong>Day 3</strong></td>
+            <td>Breakfast</td>
+            <td>255</td>
+            <td rowspan="4">[Day 3 places and highlights.]</td>
+          </tr>
+          <tr>
+            <td>Lunch</td>
+            <td>350</td>
+          </tr>
+          <tr>
+            <td>Dinner</td>
+            <td>2,000</td>
+          </tr>
+          <tr>
+            <td>Local travel</td>
+            <td>4,400</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="2">Total cost</td>
+            <td colspan="2">৳39,654</td>
+          </tr>
+          <tr>
+            <td colspan="4">
+              Split between 5 friends, about ৳7,931 per person, tracked with
+              TourMate
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <footer>
+      <a href="./index.html">&larr; Back to Home</a>
+      <p>© 2026 Mashfi Mahin Sarder. All rights reserved.</p>
+      <p id="page-info"></p>
+      <script>
+        document.getElementById("page-info").textContent =
+          "Location: " + window.location.href +
+          " | Last modified: " + document.lastModified;
+      </script>
+    </footer>
+  </body>
+</html>
