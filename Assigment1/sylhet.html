@@ -9,11 +9,17 @@
 
   <body>
     <header class="prominent-header">
+      <img class="profile-pic" src="Images/self.jpg" alt="An image of me" />
       <h1 class="logo">Mashfi Mahin Sarder</h1>
       <nav>
         <a href="./index.html">Home</a>
         <a href="./index.html#about">About Me</a>
-        <button class="theme-btn" onclick="document.body.classList.toggle('dark')">&#9788; / &#9790;</button>
+        <button
+          class="theme-btn"
+          onclick="document.body.classList.toggle('dark')"
+        >
+          &#9788; / &#9790;
+        </button>
       </nav>
     </header>
     <h2 id="tour">My Sylhet Tour</h2>
@@ -78,7 +84,10 @@
             <td rowspan="4"><strong>Day 1</strong></td>
             <td>Breakfast</td>
             <td>300</td>
-            <td rowspan="4">[Where you went and what you did on Day 1.]</td>
+            <td rowspan="4">
+              Our bus was late by 5 hours due to sylhet being overcrowded. So,
+              we were only able to go to Shadapathor.
+            </td>
           </tr>
           <tr>
             <td>Lunch</td>
@@ -97,7 +106,10 @@
             <td rowspan="4"><strong>Day 2</strong></td>
             <td>Breakfast</td>
             <td>1,000</td>
-            <td rowspan="4">[Day 2 places and highlights.]</td>
+            <td rowspan="4">
+              We woke up early as we had to check out of one hotel and move to
+              another. this day we were able to visit Shapla bil and jaflong.
+            </td>
           </tr>
           <tr>
             <td>Lunch</td>
@@ -116,7 +128,9 @@
             <td rowspan="4"><strong>Day 3</strong></td>
             <td>Breakfast</td>
             <td>255</td>
-            <td rowspan="4">[Day 3 places and highlights.]</td>
+            <td rowspan="4">
+              We visited Bisnakandi and Utmachora on the last day.
+            </td>
           </tr>
           <tr>
             <td>Lunch</td>
@@ -151,8 +165,10 @@
       <p id="page-info"></p>
       <script>
         document.getElementById("page-info").textContent =
-          "Location: " + window.location.href +
-          " | Last modified: " + document.lastModified;
+          "Location: " +
+          window.location.href +
+          " | Last modified: " +
+          document.lastModified;
       </script>
     </footer>
   </body>

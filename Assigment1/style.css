@@ -127,14 +127,17 @@ tfoot td {
 .photo-credit {
   font-size: 0.8rem;
   color: #666;
+  margin-left: 35px;
 }
 
 .spot-photo {
   display: block;
   justify-content: center;
   width: 180px;
+  height: 100px;
   border-radius: 6px;
   margin-top: 10px;
+  margin-left: 50px;
 }
 
 .quote-box {
