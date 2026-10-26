@@ -27,7 +27,7 @@ Date:26-10-2026
 [ ] Writing text content
 [*] Design/styling ideas
 [ ] Image generation
-[ ] Other: ________________
+[*] Other: Effects
 
 ------------------------------------------------------------
 3. DESCRIPTION OF AI USE
