@@ -32,7 +32,7 @@ Date:26-10-2026
 ------------------------------------------------------------
 3. DESCRIPTION OF AI USE
 ------------------------------------------------------------
-I mostly used two youtube video to learn the vanilla HTML and CSS. https://youtu.be/mJgBOIoGihA?si=16IL5brAHNIT2FGv and https://youtu.be/mJgBOIoGihA?si=fmO2UW-esg9QajGZ. But still asked gemini to Learn and debug here and there with prompts like How does <div> work?, how does <ul>> work?, how to use <blockquote>,etc. I also have very bad artistic taste so I used gemini to get ideas to how to structure the assignment. I mostly used AI to learn about it for the effects.
+I mostly used two youtube video to learn the vanilla HTML and CSS. https://youtu.be/mJgBOIoGihA?si=16IL5brAHNIT2FGv and https://youtu.be/mJgBOIoGihA?si=fmO2UW-esg9QajGZ. But still asked gemini to Learn and debug here and there with prompts like How does <div> work?, how does <ul>> work?, how to use <blockquote>,etc. I also have very bad artistic taste so I used gemini to get ideas to how to structure the assignment. I mostly used AI to learn about the effects.
 ------------------------------------------------------------
 4. AI-ASSISTED SECTIONS
 ------------------------------------------------------------
